@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SPACE WAR GAMES. </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <div class="gamecontainer" id="game">
+            <div class="player" id="player"> <img src="Plane.png" alt=""> </div>
+            <div class="alien" id="alien"> <img src="alien.png" alt=""> </div>
+        </div>
+        
+        <div id="result">
+            <h1> GAME OVER. </h1>
+            <p id="score"></p>
+            <button id="btn" onclick="location.reload()"> RESTART NOW. </button>
+        </div>
+
+        <audio id="shoot" src="fireex.wav"></audio>
+        <audio id="gameover" src="gameover.wav"></audio>
+
+</body>
+<script src="index.js"></script>
+</html>
